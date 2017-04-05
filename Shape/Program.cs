@@ -7,6 +7,7 @@ namespace Shape
         static void Main(string[] args)
         {
             var birthdate = new DateTime(1994, 4, 5);
+            Console.WriteLine(birthdate);
             // Save today's date.
             var now = DateTime.UtcNow;
             // Calculate the age.
